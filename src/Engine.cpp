@@ -4,8 +4,6 @@
 
 using namespace sf;
 
-static random_device rngdev;
-
 Engine::Engine() : m_Window(VideoMode::getDesktopMode(), "Particles", Style::Fullscreen) {}
 
 void Engine::run() {
